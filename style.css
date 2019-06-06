@@ -1,0 +1,42 @@
+/* @media stuff to add */
+/* Images */
+img{
+    width:100% !important;
+    height:100% !important;
+}
+.active, .panel:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
+    
+}
+.visualization{
+    width:50% !important;
+    height:50% !important;
+}
+nav{
+    color: #0BADA6
+}
+
+h3{
+    color: #0BADA6; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h4{
+    color: #0BADA6; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
+
+p{font-family: 'Times New Roman', Times, serif}
+
+h1{
+    color: #0BADA6; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
