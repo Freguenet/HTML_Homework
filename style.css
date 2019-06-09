@@ -1,4 +1,4 @@
-/* @media stuff to add */
+
 /* Images */
 img{
     width:100% !important;
@@ -7,16 +7,44 @@ img{
 .active, .panel:hover{
     border-color:#0BADA6;
     border-style: solid; 
-    
 }
 .visualization{
     width:50% !important;
     height:50% !important;
 }
-nav{
-    color: #0BADA6
+
+/* Navigation Bar */
+nav.fixed{
+    position: fixed;
+    color: #0BADA6;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
+.nav-link{color: black;
+    font-family: 'Times New Roman', Times, serif
+}
+.btn-primary{background-color: #0BADA6;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16
+}
+.navbar{margin-top: 0px; 
+    margin-bottom: 0px; 
+    padding-left: 220px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 50px;
+    background-color: white
+
 }
 
+/* Dropdown Items */
+.dropdown-item{color: black;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Titles*/
 h3{
     color: #0BADA6; 
     font-weight: bold;
@@ -28,15 +56,95 @@ h4{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif
 }
-
-p{font-family: 'Times New Roman', Times, serif}
-
 h1{
     color: #0BADA6; 
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif
 }
+h5{
+    color: #0BADA6; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center
+}
 
+/* Backgound */
+.container{background-color: #DCDCDC;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+       
+}
+
+.box{background-color: white;
+        margin-top: 60px; 
+        margin-bottom: 65px; 
+        padding: 50px 50px 50px; 
+        color:black;
+}
+
+body {
+    background-color: #DCDCDC;
+    margin:0 auto
+}
+
+/* Paragraph */
+p{font-family: 'Times New Roman', Times, serif}
+
+
+/* Table */
 table, th, td {
     border: 1px solid black;
+    table-layout: inherit
   }
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+th {
+    background-color: #C0C0C0;
+}
+  /* footer */
+  footer{background-color: grey;
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-top: 5px;
+    justify-content: center;
+    text-align:center;
+    color:white;
+    border-top-style: solid;
+    border-top-color: #0BADA6;
+    height: 40px;
+    font-size: 13px;
+    }
+
+ /* @media*/ 
+ @media(max-width: 992px){
+    .navbar-expand-lg{
+    background-color: #0BADA6 !important;
+    }
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    .navbar div{
+        margin: inherit; 
+        background-color: white;  
+    }
+    .navbar-brand{
+        padding: 10px !important; 
+    }
+    
+    button{
+        margin-right: 30px; 
+    }
+    button:focus{
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focusring-color;
+    }
+   
+    table, th, td {
+        overflow-y: hidden;
+      }}
